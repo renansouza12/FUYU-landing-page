@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    /*Colors*/
+    --Dark-gray:#888888;
+    --Light-gray:#979797;
+    --bg-color:#EBEBEB;
+    --White:#fff;
+    /*sizings*/
+    --xs-sizing:8px;
+    --s-sizing:16px;
+    --m-sizing:24px;
+    --l-sizing:32px;
+    --xl-sizing:64px;
+    --xxl-sizing:120px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'kyiv';
+    src: url(../src/assets/fonts/KyivTypeTitling-Medium3.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla';
+    background: var(--bg-color);
+}
+h1{
+    font-family: 'kyiv';
+    color:var(--White) ;
+    font-weight: 100;
+}
+h2{
+    color: var(--Dark-gray);
+}
+h3{
+    color: var(--White);
+}
+p{
+    color: var(--Light-gray);
+}
