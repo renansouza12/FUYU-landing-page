@@ -8,7 +8,7 @@
     height: 30px;
     width: 30px;
     border: 2px solid var(--Dark-gray);
-    z-index: 1;
+    
 }
 .cursor_dot, .cursor_outline{
     position: fixed;
@@ -17,4 +17,5 @@
     transform: translate(-50%,-50%);
     border-radius: 50%;
     pointer-events: none;
+    z-index: 1;
 }

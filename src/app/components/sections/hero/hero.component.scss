@@ -1,0 +1,29 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .image_cover{
+        height: 40vw;
+        width: 50vw;
+        position: relative;
+        
+        img{
+            height: 100%;
+            width: 100%;
+        
+        }
+        h2{
+            position: absolute;
+            top: -10%;
+            left: 0;
+        }
+    }
+    .title{
+        transform: rotate(90deg);
+        text-align: center;
+        text-transform: uppercase;
+        height: 20vw;
+    }
+   
+}
