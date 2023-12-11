@@ -1,0 +1,20 @@
+@import url(../../../../styles.scss);
+.cursor_dot{
+    height: 5px;
+    width: 5px;
+    background-color: var(--Dark-gray);
+}
+.cursor_outline{
+    height: 30px;
+    width: 30px;
+    border: 2px solid var(--Dark-gray);
+    z-index: 1;
+}
+.cursor_dot, .cursor_outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    pointer-events: none;
+}

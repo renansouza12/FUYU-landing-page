@@ -4,6 +4,7 @@
     --Light-gray:#979797;
     --bg-color:#EBEBEB;
     --White:#fff;
+
     /*sizings*/
     --xs-sizing:8px;
     --s-sizing:16px;
@@ -22,6 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: none;
 }
 body{
     font-family: 'Karla';
