@@ -1,0 +1,56 @@
+@import url(../../../../styles.scss);
+.informations{
+    height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    gap: var(--l-sizing);  
+    position: relative;
+    img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        filter: brightness(0.8);
+        z-index: -1;
+        object-fit: cover;
+    }
+
+    .about{
+        h2{
+            color: var(--White);
+            text-align: end;
+            padding-right: 3rem;
+        }
+        p{
+            width: 60vw;
+            color: var(--White);
+            text-align: end;
+        }
+    }
+    .card_informations{
+        background-color: rgba(35, 35, 35, 0.385);
+        background: linear-gradient(143deg, rgba(3, 3, 3, 0.40) 4.63%, rgba(3, 3, 3, 0.00) 90.08%);
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(4px);
+        width: 20vw;
+        height: 70vh;
+        padding: 1rem;
+        
+        ol{ 
+            list-style: none;   
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: end;
+            height: 100%;
+            li{
+                
+              h3{
+                width: fit-content;
+                border-bottom: 1px solid var(--White);
+                padding-bottom: 3rem;
+              }
+            }
+        }
+    }
+}

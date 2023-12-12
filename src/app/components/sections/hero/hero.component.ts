@@ -32,7 +32,7 @@ export class HeroComponent implements OnInit{
     const tl1 = gsap.timeline({
       scrollTrigger:{
         trigger:'.title',
-        start:"top center",
+        start:"top top",
         end:"bottom center",
         scrub:true,
       }
@@ -40,14 +40,15 @@ export class HeroComponent implements OnInit{
    tl1.to('.char',{
     stagger:-0.5,
     opacity:0,
-   delay:1
+    transition:0.5
    })
 
    gsap.fromTo('.txt',{
-    opacity:0,
+    opacity:0,    
    },{
     opacity:1,
-    duration:5
+    duration:2,
+    transition:0.5
    })
   }
 
