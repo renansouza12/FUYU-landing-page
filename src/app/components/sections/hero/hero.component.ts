@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.scss']
+  styleUrls: ['./hero.component.scss','hero.responsive.component.scss']
 })
 export class HeroComponent implements OnInit{
   ngOnInit(): void {
@@ -28,7 +28,7 @@ export class HeroComponent implements OnInit{
     })
     
     const myText = new SplitType('.txt');
-
+    
     const tl1 = gsap.timeline({
       scrollTrigger:{
         trigger:'.title',
@@ -42,11 +42,13 @@ export class HeroComponent implements OnInit{
     opacity:0,
    delay:1
    })
-   gsap.from('.char',{
-    stagger:0.2,
-    opacity:0
-   })
 
+   gsap.fromTo('.txt',{
+    opacity:0,
+   },{
+    opacity:1,
+    duration:5
+   })
   }
 
 }

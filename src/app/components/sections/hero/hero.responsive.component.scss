@@ -1,0 +1,19 @@
+@media (max-width:425px) {
+    .hero{
+        justify-content: space-around;
+        flex-direction: column;
+        .image_cover{
+            height: 300px;
+            width:auto;
+            h2{
+                top: 0;
+                font-size: var(--xl-sizing);
+            }
+
+        }
+        .title{
+            transform: rotate(0);
+            font-size: 45px;
+        }
+    }
+}
