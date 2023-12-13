@@ -6,6 +6,7 @@ import { CursorComponent } from './components/ui/cursor/cursor.component';
 import { HeroComponent } from './components/sections/hero/hero.component';
 import { HeaderComponent } from './components/sections/header/header.component';
 import { InformationsComponent } from './components/sections/informations/informations.component';
+import { ProductComponent } from './components/sections/product/product.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { InformationsComponent } from './components/sections/informations/inform
     CursorComponent,
     HeroComponent,
     HeaderComponent,
-    InformationsComponent
+    InformationsComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule

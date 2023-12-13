@@ -28,7 +28,7 @@ export class InformationsComponent implements OnInit {
       scrollTrigger:{
         trigger:'.informations',
         start:"top center",
-        end:"center center",
+        end:"bottom center",
         scrub:true,
       }
     })

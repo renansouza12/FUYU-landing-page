@@ -40,7 +40,6 @@ export class HeroComponent implements OnInit{
    tl1.to('.char',{
     stagger:-0.5,
     opacity:0,
-    transition:0.5
    })
 
    gsap.fromTo('.txt',{
