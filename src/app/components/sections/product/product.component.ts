@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.scss']
+  styleUrls: ['./product.component.scss','product.responsive.component.scss']
 })
 export class ProductComponent implements OnInit{
   ngOnInit(): void {
@@ -16,13 +16,13 @@ export class ProductComponent implements OnInit{
         start:'top center',
         end:'bottom center',
         scrub:true,
-        markers:true
       }
     })
 
    tl.fromTo('.img',{
     opacity:0,
-    y:100
+    y:100,
+    transition:0.5
    },{
     opacity:1,
     stagger:0.2,

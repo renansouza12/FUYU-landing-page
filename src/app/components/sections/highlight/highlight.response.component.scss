@@ -1,0 +1,18 @@
+@media (max-width:425px) {
+    .highlight_container {
+        .highlight_content{
+            h2,p{
+                width: 40vw;
+            }
+            h2{
+                font-size: var(--l-sizing);
+                
+            }
+            p{
+                font-size: var(--s-sizing);
+                color: var(--Dark-gray);
+                font-weight: bold;
+            }
+        }
+    }
+}

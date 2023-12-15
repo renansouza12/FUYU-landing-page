@@ -7,6 +7,7 @@ import { HeroComponent } from './components/sections/hero/hero.component';
 import { HeaderComponent } from './components/sections/header/header.component';
 import { InformationsComponent } from './components/sections/informations/informations.component';
 import { ProductComponent } from './components/sections/product/product.component';
+import { HighlightComponent } from './components/sections/highlight/highlight.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductComponent } from './components/sections/product/product.componen
     HeroComponent,
     HeaderComponent,
     InformationsComponent,
-    ProductComponent
+    ProductComponent,
+    HighlightComponent
   ],
   imports: [
     BrowserModule

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from 'split-type'
+
 gsap.registerPlugin(ScrollTrigger);
 
 @Component({
@@ -14,13 +15,13 @@ export class HeroComponent implements OnInit{
 
     const tl = gsap.timeline({
         scrollTrigger:{
-        trigger:'.img',
+        trigger:'.img_hero',
         start:"top center",
         end:"bottom center",
         scrub:true,
       },
     });
-    tl.fromTo('.img',{
+    tl.fromTo('.img_hero',{
       y:-100,
       transition:.4
     },{
@@ -43,11 +44,10 @@ export class HeroComponent implements OnInit{
    })
 
    gsap.fromTo('.txt',{
-    opacity:0,    
+    opacity:0,   
    },{
     opacity:1,
-    duration:2,
-    transition:0.5
+
    })
   }
 

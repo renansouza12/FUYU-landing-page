@@ -1,0 +1,43 @@
+@import url(../../../../styles.scss);
+
+.highlight_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: var(--s-sizing);
+    position: relative;
+    .highlight_content {
+        
+
+        h2,
+        p {
+            position: absolute;
+            width: 30vw;
+        }
+
+        h2 {
+            color: var(--White);
+            text-align: center;
+            font-size: 6vw;
+            font-weight: 100;
+            left: 10%;
+            top: 5%;
+        }
+
+        p {
+            color: var(--Dark-gray);
+            text-align: justify;
+            bottom: 5%;
+            right: 10%;
+           
+        }
+    }
+
+    img {
+        height: 80vh;
+        width: 50vw;
+        object-fit: cover;
+    }
+}
+
