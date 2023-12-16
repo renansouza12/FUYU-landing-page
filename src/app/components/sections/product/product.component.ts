@@ -26,7 +26,8 @@ export class ProductComponent implements OnInit{
    },{
     opacity:1,
     stagger:0.2,
-    y:0
+    y:0,
+    transition:0.5
    })
    tl.from('.product_txt',{
     opacity:0
