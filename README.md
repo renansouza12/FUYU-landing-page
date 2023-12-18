@@ -23,12 +23,12 @@ A landing page about a shoe called "Y-3", using Angular and <a href="https://gsa
 Clone the project :
 
 ```
-git clone ...
+git clone https://github.com/renansouza12/FUYU-landing-page.git
 
 ```
 Enter the project folder and open it:
 ```
-cd ...
+cd FUYU-landing-page
 
 code .
 ```
