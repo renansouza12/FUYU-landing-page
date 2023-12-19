@@ -3,8 +3,7 @@
 A landing page about a shoe called "Y-3", using Angular and <a href="https://gsap.com/">Green sock animations</a> with responsive design.
 ## Screenshots
 
-![App Screenshot]()
-
+![App Screenshot](https://i.ibb.co/9hNb1qp/localhost-4200.png)
 
 
 ## 🔗 demo live
